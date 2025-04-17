@@ -22,3 +22,11 @@ The core of the gateway is a single Solidity smart contract that:
 - Verifies transaction data using `keccak256` for added integrity.
 - Emits payment events for frontend integration.
 
+Steps to test the project:
+- Deploy the truffle project on Ganache
+- Deploy the truffle project on Sepolia testnet
+- Run Ganache on your system in the background
+- Copy and paste the Ganache addresses in the Login Page to Do Password Mapping
+- Copy the generated abi(.json) file from build and paste it to the abi in client/src/abi/ folder.
+- Go to client folder and create a build using: npm build
+- Start the frontend: npm start
