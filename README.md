@@ -22,11 +22,3 @@ The core of the gateway is a single Solidity smart contract that:
 - Verifies transaction data using `keccak256` for added integrity.
 - Emits payment events for frontend integration.
 
-
-            msg.value,      // How much
-            productId,      // For what product
-            timestamp,      // When
-            hash            // Verified transaction hash
-        );
-    }
-}
